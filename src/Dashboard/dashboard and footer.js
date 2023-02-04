@@ -13,10 +13,10 @@ const Dashboard = () => {
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href='/' >All Questions</a>
+                <Link class="nav-link" to={'/'} >All Questions</Link>
               </li>
               <li class="nav-item">
-                <a href='/singlequestion' class="nav-link">Single Question</a>
+                <Link to={'/singlequestion'} class="nav-link">Single Question</Link>
               </li>
 
             </ul>

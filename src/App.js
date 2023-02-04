@@ -7,9 +7,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Dashboard></Dashboard>
+     
 
       <Router>
+      <Dashboard></Dashboard>
         <Routes>
           <Route  path="/" element={<AllQuestions/>} ></Route>
         </Routes>
