@@ -5,7 +5,7 @@ const AllQuestions = () => {
     const [questions, setQuestions] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3333').then((response) => {
+        axios.get('https://csa-exam-backend.onrender.com').then((response) => {
             setQuestions(response.data.data)
              console.log(questions)
         })
